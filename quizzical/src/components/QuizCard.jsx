@@ -55,10 +55,10 @@ const QuizCard = ({
         let styles = undefined;
 
         if (selectedAnswer === answer) {
-            styles = {backgroundColor: "blue", color: "white"}
+            styles = {backgroundColor: "#df2a4c", color: "white"}
         }
         if (isSubmitted && answer === correctAnswer) {
-            styles = {backgroundColor: "green", color: "white"}
+            styles = {backgroundColor: "#1d4b3b", color: "white"}
         } else if(isSubmitted && (selectedAnswer !== correctAnswer) && (answer === selectedAnswer)) {
             styles = {backgroundColor: "red", color: "white"}
         }

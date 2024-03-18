@@ -6,10 +6,10 @@
 
 body{
     margin: 0;
-    font-family: Inconsolata, poppins, sans-serif;
+    font-family:  Inter, poppins, sans-serif;
     font-size: 1rem;
-    background: white;
-    color: #ec576b;
+    background: #ffe6d3;
+    color: #df2a4c;
     /* background: linear-gradient(90deg, rgba(245,244,251,1) 0%, rgba(198,198,218,0.47942927170868344) 41%, rgba(202,212,214,1) 100%); */
     padding: 20px;
 }
@@ -23,18 +23,24 @@ body{
     padding: 20px;
 }
 
-.heading{
+.home--heading{
     font-size: 2.8rem;
 }
 
+.home--text{
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
 .home--button{
-    font-family: Inconsolata, poppins, sans-serif;
+    font-family: inherit;
     font-size: 1.5rem;
     font-weight: 800;
     padding: 20px 40px;
     border: none;
     border-radius: 10px;
-    background: #ec576b;
+    background: #df2a4c;
     color: white;
 }
 
@@ -90,12 +96,14 @@ body{
 }
 
 .answer{
+    min-width: 100px;
+    font-family: inherit;
     border: 1px solid;
-    padding: 8px 16px;
+    padding: 16px 16px;
     border-radius: 10px;
-    font-size: 0.85rem;
-    background-color: #ec576b;
-    color: white;
+    font-size: 1rem;
+    background-color: inherit;
+    color: #df2a4c;
 }
 
 .tag{
@@ -103,8 +111,8 @@ body{
     padding: 6px 12px;
     font-size: 0.75rem;
     border-radius: 10px;
-    background-color:#ec576b;
-    color: rgb(241, 236, 225);
+    background-color: inherit;
+    color: #df2a4c
 }
 
 .answer:hover{
@@ -135,7 +143,7 @@ body{
     padding: 20px 40px;
     border: none;
     border-radius: 10px;
-    background: #ec576b;
+    background: #df2a4c;
     color: white;
 }
 

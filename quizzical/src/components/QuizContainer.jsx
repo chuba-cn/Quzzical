@@ -13,7 +13,7 @@ const QuizContainer = () => {
 
     const fetchQuestions = async () => {
         try {
-            const response = await fetch(`https://the-trivia-api.com/v2/questions?limit=5&categories=science,film_and_tv&difficulties=easy,medium`);
+            const response = await fetch(`https://the-trivia-api.com/v2/questions?limit=5&categories=science,film_and_tv,sports_and_leisure,history,music&difficulties=easy,medium`);
             if (!response.ok) {
                 throw new Error("Failed to fetch questions");
             }
@@ -60,7 +60,7 @@ const QuizContainer = () => {
 
     return (
         <section className="quiz-container">
-            <header className="heading quiz-header">Quizzically</header>
+            <header className="home--heading quiz-header">Quizzically</header>
             {questions.map(question => (
                 <QuizCard
                     key={question.id}
